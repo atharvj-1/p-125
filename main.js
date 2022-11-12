@@ -41,6 +41,7 @@ function draw(){
     document.getElementById("square_size").innerHTML="Width and height of the square will be= " + difference + "px";
 fill("yellow");
 stroke("yellow");
-square(noseX,noseY,difference);
+textSize(difference);
+text('ATHARV',50,400);
 
 }
